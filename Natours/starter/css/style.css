@@ -333,9 +333,11 @@ body {
   margin: 0 auto;
   padding: 6rem;
   padding-left: 9rem;
-  width: 75%; }
+  width: 75%;
+  transform: skewX(-12deg); }
+  .story > * {
+    transform: skewX(12deg); }
   .story__shape {
-    background-color: orangered;
     height: 15rem;
     width: 15rem;
     float: left;
@@ -343,7 +345,11 @@ body {
     shape-outside: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     -webkit-clip-path: circle(50% at 50% 50%);
-    transform: translateX(-3rem); }
+    transform: translateX(-3rem) skewX(12deg); }
+  .story__img {
+    height: 100%; }
+  .story__text {
+    transform: skewX(12deg); }
 
 .header {
   /* 95% of view-port height */
