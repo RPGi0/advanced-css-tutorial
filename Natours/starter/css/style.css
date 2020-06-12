@@ -657,6 +657,17 @@ body {
 .nav__btn:hover .nav__icon::after {
   top: 1rem; }
 
+.nav__checkbox:checked + .nav__btn .nav__icon {
+  background-color: transparent; }
+
+.nav__checkbox:checked + .nav__btn .nav__icon::before {
+  top: 0;
+  transform: rotate(135deg); }
+
+.nav__checkbox:checked + .nav__btn .nav__icon::after {
+  top: 0;
+  transform: rotate(-135deg); }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
