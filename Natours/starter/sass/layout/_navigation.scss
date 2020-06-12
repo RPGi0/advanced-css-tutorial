@@ -43,7 +43,7 @@
   }
 
   &__list {
-    @include centerElement;
+    @include absCenter;
     list-style: none;
     text-align: center;
     width: 100%
@@ -140,15 +140,3 @@
     transform: rotate(-135deg);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
